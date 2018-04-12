@@ -23,7 +23,16 @@ namespace SelectedSort
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int[] array = new int[] { 4, 5, 3, 8, 1, 3, 7, 9, 0, 0 };
+            SelectedSort(array);
+
+            foreach(int item in array)
+            {
+                Console.Write(item);
+                Console.Write(" ");
+            }
+
+            Console.Read();
         }
     }
 }
